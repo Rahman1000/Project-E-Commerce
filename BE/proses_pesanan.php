@@ -32,5 +32,6 @@ if(isset($_POST['proses'])){
     $st->execute($ar_data);
    }
 
-   header('location:daftar_pesanan.php');
+   // header('location:daftar_pesanan.php');
+   echo '<meta http-equiv="refresh" content="0; url=daftar_pesanan.php">';
 ?>
