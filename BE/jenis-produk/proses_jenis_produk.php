@@ -21,5 +21,6 @@ require_once '../dbkoneksi.php';
     $st->execute($ar_data);
    }
 
-   header('location:jenis_produk.php');
+   // header('location:jenis_produk.php');
+   echo '<meta http-equiv="refresh" content="0; url=jenis_produk.php">';
 ?>
